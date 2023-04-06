@@ -19,9 +19,9 @@ export default function GreetSection() {
             <h1>M. Fathurrahman</h1>
           </div>
           <p>
-            Hello and welcome to my web portfolio! As a final year student and a
-            frontend developer, I am excited to showcase my skills and
-            experience in this space.
+            Welcome to my web portfolio! As a final year student and a frontend
+            developer, I am excited to showcase my skills and experience in this
+            space.
           </p>
           <Link className="btn" data-button-variant="green" href={"#"}>
             My Journey 🚀

@@ -46,7 +46,12 @@ export default function Why() {
                 /> */}
             </p>
           </div>
-          <pre className="text-code-red">{"  )\n}"}</pre>
+          <div className="line" data-depth="2">
+            <span className="code syntax-keyword">{")"}</span>
+          </div>
+          <div className="line">
+            <span className="code syntax-string">{"}"}</span>
+          </div>
           {/* <div
             className={`absolute inset-0 ${
               modalShown ? "flex" : "hidden"
