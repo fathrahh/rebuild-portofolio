@@ -1,0 +1,90 @@
+.navbar {
+    position: sticky;
+    background-color: #FFFFFF;
+    top: 0;
+    width: 100%;
+    height: var(--navbar-height);
+    z-index: 2;
+}
+
+.navbar-wrapper {
+    position: relative;
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-wrapper::after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-radius: 4px;
+    background-image: linear-gradient(to left, transparent, #B2A4FF, transparent);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 1.75rem;
+}
+
+
+.logo {
+    font-size: 1.825rem;
+    font-family: var(--gochi-hand-font);
+}
+
+.action {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.action > a[target]{
+    font-size: 20px;
+    transition: scale 200ms ease-in;
+    -webkit-transition: scale 200ms ease-in;
+    -moz-transition: scale 200ms ease-in;
+    -ms-transition: scale 200ms ease-in;
+    -o-transition: scale 200ms ease-in;
+}
+
+.action > a[target]:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+.btnHire .icon {
+    margin-left: 0.5rem;
+}
+
+.btnHire .icon[data-icon="love"]{
+    display: none;
+    visibility: hidden;
+}
+
+.btnHire .icon[data-icon="cool"]{
+    display: inline-block;
+    visibility: visible;
+}
+
+.btnHire:hover .icon[data-icon="love"]{
+    display: inline-block;
+    visibility: visible;
+}
+
+.btnHire:hover .icon[data-icon="cool"]{
+    display: none;
+    visibility: hidden;
+}

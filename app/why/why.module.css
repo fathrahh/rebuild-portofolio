@@ -1,0 +1,45 @@
+.main {
+    height: calc(100vh - var(--navbar-height));
+    padding: 2.25rem 0;
+}
+
+.main h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.main h1 span {
+    font-size: 2.75rem;
+}
+
+.hero {
+    display: flex;
+    margin-top: 4rem;
+    gap: 2.25rem;
+}
+
+.result {
+    width: 480px;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 20px 4px #e1d5d580;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.result__action-wrapper{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.result__content{
+    margin-top: 1rem;
+}
+
+
