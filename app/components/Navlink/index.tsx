@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/router";
 import Link from "next/link";
-import cx from "classNames";
+import cx from "classnames";
 import { usePathname } from "next/navigation";
 
 import styles from "./navlink.module.css";
